@@ -69,7 +69,7 @@
           lastResult.style.backgroundColor = 'green';
           lowOrHi.textContent = '';
           setGameOver();
-        } else if (guessCount === 10) {
+        } else if (guessCount === 100) {
           lastResult.textContent = '!!!GAME OVER!!!';
           lowOrHi.textContent = '';
           setGameOver();
@@ -112,7 +112,7 @@
         guessField.value = '';
         guessField.focus();
         lastResult.style.backgroundColor = 'white';
-        randomNumber = Math.floor(Math.random() * 100) + 1;
+        randomNumber = 100;
       }
     </script>
   </body>
