@@ -1,0 +1,33 @@
+<!--A magical3.js kiegészítve azzal, hogy a kapott eredményt kiírjuk headerbe.-->
+
+<!DOCTYPE html>
+  <html>
+
+    <head>
+
+    </head>
+
+    <body>
+
+      <h1 id="myHeader">My Header</h1>
+
+
+      <script>
+        function magical13() {
+          let givenNumber = prompt();
+
+          if (givenNumber > 13) {
+            document.getElementById("myHeader").innerHTML = ((givenNumber - 13) * 2);
+          } else {
+            return 0;
+          }
+        }
+
+        magical13();
+/*
+Write a JavaScript program to get the difference between a given number and 13, if the number is greater than 13 return double the absolute difference.
+*/
+      </script>
+    </body>
+
+  </html>
