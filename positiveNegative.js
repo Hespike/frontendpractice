@@ -7,5 +7,7 @@ function positiveNegative(num1, num2) {
 }
 
 console.log(positiveNegative(10, -20));
+console.log(positiveNegative(-10, 20));
 console.log(positiveNegative(10, 20));
 console.log(positiveNegative(-10, -20));
+
