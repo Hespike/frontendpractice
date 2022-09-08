@@ -10,6 +10,6 @@ function firstCharacters(string) {
   }
 }
 
-console.log(threeCharacters("Hello"));
-console.log(threeCharacters("Example"));
-console.log(threeCharacters("Le"));
+console.log(firstCharacters("Hello"));
+console.log(firstCharacters("Example"));
+console.log(firstCharacters("Le"));
