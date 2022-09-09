@@ -6,10 +6,10 @@ function stringConverter(str) {
   if (str.length < 3) {
     return str.toUpperCase();
   } else {
-  return str.substring(0,4).toLowerCase() + str.substring(4, str.length);
+  return str.substring(0,3).toLowerCase() + str.substring(3, str.length);
   }
 }
 
 console.log(stringConverter("Ha"));
 console.log(stringConverter("Hello"));
-console.log(stringConverter("EXAmplestring"));
+console.log(stringConverter("EXAMplestring"));
